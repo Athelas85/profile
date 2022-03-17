@@ -1,0 +1,101 @@
+body {
+  background-image: url(/profile/images/background.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+h1, h2, h3 {
+  color: #40798C;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: medium;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: medium;
+}
+
+p {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6fd8f8;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#profile-pic {
+  border-radius: 150px;
+  border-color: #6fd8f8;
+  border-style: solid;
+  width: 150px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 30px 40px rgba(0,0,0,0.3);
+  border-radius: 30px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.divider {
+  border-top: 1.5px solid #6fd8f8;
+  width: 300px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.btn-blue {
+  background-color: #521779;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 30px;
+}
+
+p {
+  padding: 10px 10px 30px 10px;
+}
+
+.btn-social {
+  padding: 10px 10px;
+  font-size: 50px;
+}
+
+ul.list-inline {
+  text-align: center;
+  padding-left: 0;
+}
+
+footer {
+ text-align: center;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
